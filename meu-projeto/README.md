@@ -77,3 +77,19 @@ Os dados ficam salvos no LocalStorage, então ao recarregar a página, eles perm
 
 * para dar deploy 
     vercel --prod
+
+
+# Criar o projeto
+npm create vite@latest meu-projeto --template react
+
+# Acessar a pasta do projeto
+cd meu-projeto
+
+# Instalar dependências
+npm install
+
+# Instalar Bootstrap e React Router
+npm install bootstrap react-bootstrap react-router-dom
+
+# Iniciar o projeto
+npm run dev
